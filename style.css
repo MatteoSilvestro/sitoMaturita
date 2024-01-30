@@ -530,7 +530,7 @@ div.nomediv {
     width: 80%;
 }
 
-.percScol{
+.form_img{
     width: 100%;
     height: 100%;
 }
@@ -542,21 +542,32 @@ div.nomediv {
 
 .f3{
     margin-right: 5%;
+    width: 200%;
+}
+
+.f2{
+    width: 200%;
+    
 }
 
 .f1{
     margin: 0;
+    width: 200%;
+    
 }
 
 
 #labelperc{
     margin: 0;
 }
+
 .label{
     color: white;
     padding-left: 5%;
     text-align: center;
 }
+
+
 
 
 
