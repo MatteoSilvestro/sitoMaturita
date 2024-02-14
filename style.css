@@ -258,6 +258,7 @@ div.nomediv {
     text-decoration: none;
     font-size: 22px;
     transition: background-color 0.3s;
+    border-radius: 5%;
 }
 
 .navbar a:hover {
@@ -275,22 +276,6 @@ div.nomediv {
     flex-direction: column;
 }
 
-/*.section {
-    border-color: #ddd;
-    border-style: solid;
-    border-radius: 10px;
-    height: 400px;
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #1c1d25;
-    color: #fff;
-    font-size: 24px;
-    font-family: Arial, sans-serif;
-    z-index: -1;
-    
-}*/
 
 .fenoglioimg {
     height: 100%;
@@ -300,11 +285,13 @@ div.nomediv {
 .infobox {
     position: absolute;
     margin-top: 20px;
+    margin-left: -40%;
     left: 45%;
     color: #000000;
     align-items: center;
-    font-family: 'Lato';
-    font-weight: bold;
+    font-family: 'Open Sans', 'Source Sans Pro', sans-serif;
+    font-weight: lighter;
+
 }
 
 .ar-vr {
@@ -384,7 +371,7 @@ div.nomediv {
     margin-top: 5%;
     position: relative; 
 }
-
+/*
 .section1::before {
     position: absolute;
     top: -10%; 
@@ -406,7 +393,7 @@ div.nomediv {
 }
 
 
-
+*/
 
 .container2 {
     display: flex;
@@ -428,7 +415,7 @@ div.nomediv {
     width: 30%;
 }
 
-
+/*
 .section2::before {
     position: absolute;
     top: 50%; 
@@ -448,7 +435,7 @@ div.nomediv {
     -webkit-animation: shine 1.5s;
     animation: shine 1.5s;
 }
-
+*/
 .descAR {
     position: relative;
     color: white;
@@ -481,7 +468,7 @@ div.nomediv {
     width: 30%;
 }
 
-
+/*
 .section3::before {
     position: absolute;
     top: 90%; 
@@ -502,7 +489,7 @@ div.nomediv {
     animation: shine 1.5s;
 }
 
-
+*/
 .descS3{
     position: relative;
     color: white;
@@ -514,6 +501,9 @@ div.nomediv {
 
 /*Formazione*/
 
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 .form_container{
     border-color: #ddd;
     border-style: solid;
@@ -522,7 +512,7 @@ div.nomediv {
     background-color: #1c1d25;
     color: #fff;
     font-size: 24px;
-    font-family: Arial, sans-serif;
+    font-family: 'Space Mono', monospace; 
     height: 90%;
     margin-left: 15%;
     margin-top: 5%;
@@ -561,7 +551,7 @@ div.nomediv {
     margin: 0;
 }
 
-.label{
+.f_label{
     color: white;
     padding-left: 5%;
     text-align: center;
@@ -569,5 +559,174 @@ div.nomediv {
 
 
 
+.percscol { 
+    color: #FFFFFF; 
+    font-family: 'Space Mono', monospace; 
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    padding: 32px;
+    margin: 60px auto;
+    border: 1px solid #eee;
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.06);
+    
+    
+}
 
 
+.form_img{
+    display: float;
+}
+
+.percscol #formlabel {
+    margin: 0;
+    padding: 0;
+    width: 85%;
+    float: left;
+}
+
+#toparrow {
+    background-color: #FFFFFF;
+    border-radius: 70%;
+    width: 6%;
+    margin-top: 3%;
+    float: right;
+}
+
+.percscol .formol { 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizelegibility;
+  letter-spacing: -0.25px;
+}
+
+.percscol ol { padding-left: 50px; }
+.percscol li { 
+  color: #FFFFFF; 
+  padding-left: 16px;
+  margin-top: 24px;
+  position: relative;
+  font-size: 16px;
+  line-height: 20px;
+  
+  
+  &:before {
+     
+    content: '';
+    display: block;
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    border: 2px solid #453cb6;
+    position: absolute; 
+    top: -12px;
+    left: -46px;
+  }
+}
+
+strong { color: #FFFFFF; }
+
+
+.percscol{
+    margin-top: 50%;
+}
+
+
+/*hobby*/
+
+.f4{
+    width: 200%;
+}
+
+.f3-2{
+    width: 200%;
+    margin-right: 0;
+}
+
+.img_container{
+    display: flex;
+    background-color: white;
+    border-radius: 40%;
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Space Mono', monospace; 
+    height: 50%;
+    margin-left: 15%;
+    margin-top: 5%;
+    padding: 0;
+    width: 50%;
+}
+
+#viaggicont{
+    border-radius: 30%;
+    height: 60%;
+    
+}
+
+#musiccont{
+    background-color: #1c1d25;
+    height: 60%;
+    width: 75%;
+    margin-top: 7%;
+}
+
+#sportcont{
+    height: 65%;
+    width: 50%;
+    background-color: #1c1d25;
+    border-radius: 40%;
+    margin-top: 6%;
+}
+
+#cinemacont{
+    background-color: #1c1d25;
+    height: 65%;
+    margin-top: 3%;
+}
+
+.h_label{
+    color: white;
+    padding-left: 5%;
+    text-align: center;
+}
+
+.f1 .h_label{
+    color: white;
+    padding-right: 20%;
+    padding-top: 3%;
+}
+
+.f2 .h_label{
+    color: white;
+    padding-top: 3%;
+}
+
+.f3-2 .h_label{
+    padding-right: 25%;
+}
+
+.f4 .h_label{
+    padding-top: 4%;
+    padding-right: 25%;
+}
+
+.hobbybody .f1{
+    margin-right: -5%;
+    margin-left: 5%;
+}
+
+.hobbybody .f4{
+    margin-right: 4%;
+    margin-left: -2%;
+}
+
+
+/*Descrizione*/
+
+.descr{
+    font-family: 'Space Mono', monospace; 
+    font-size: large;
+    color: white;
+    font-weight: bold;
+    padding: 5%;
+}
